@@ -5,9 +5,6 @@ header {
 .header {
   margin: 50px 0px;
 }
-.menu {
-  height: 100vh;
-}
 .menu-bio ul {
   display: flex;
   justify-content: end;
