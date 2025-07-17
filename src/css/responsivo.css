@@ -1,0 +1,62 @@
+@media (max-width: 1550px) {
+  .menu-bio ul {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .menu .bio {
+    flex-direction: column;
+    width: 100%;
+  }
+  .about img {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+  }
+  .about p {
+    font-size: 1.2rem;
+    padding: 0 20px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .bio h1 {
+    font-size: 2.5rem;
+  }
+  .bio h2 {
+    font-size: 1.75rem;
+  }
+  .img-profile img {
+    width: 650px;
+    height: 650px;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about-me h2 {
+    font-size: 2rem;
+  }
+  .about p {
+    font-size: 0.9rem;
+    padding: 0 20px;
+    width: 80%;
+  }
+}
+@media (max-width: 700px) {
+  .img-profile img {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (max-width: 520px) {
+  .menu-bio ul {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .img-profile img {
+    width: 300px;
+    height: 300px;
+  }
+}
