@@ -7,6 +7,7 @@
   .bio-section .bio {
     flex-direction: column;
     width: 100%;
+    margin-top: 50px;
   }
   .about img {
     width: 100%;
@@ -44,12 +45,18 @@
   }
 }
 @media (max-width: 700px) {
+  .bio-section {
+    margin-top: 40px;
+  }
   .img-profile img {
     width: 500px;
     height: 500px;
   }
 }
 @media (max-width: 520px) {
+  .bio-section {
+    margin-top: 110px;
+  }
   .menu-bio ul {
     justify-content: center;
     align-items: center;
