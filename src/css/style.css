@@ -3,7 +3,8 @@ header {
 }
 /*Inicio*/
 .header {
-  margin: 50px 0px;
+  margin: 50px 0;
+  max-width: 1850px;
 }
 .menu-bio ul {
   display: flex;
@@ -102,12 +103,13 @@ header {
   align-items: center;
   text-align: center;
   padding: 2rem;
-  height: 75vh;
+  height: 76vh;
 }
 
 .bio-section .bio {
   display: flex;
   align-items: center;
+  gap: 70px;
 }
 .description {
   max-width: 700px;
@@ -272,6 +274,7 @@ header {
   font-size: 3rem;
   color: var(--cor--principal);
   font-weight: 900;
+  margin-bottom: 70px;
 }
 /*Projetos*/
 .project {
@@ -280,6 +283,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   font-size: 0.8rem;
+  gap: 30px;
 }
 /*card = container-project*/
 .project .container-project {
