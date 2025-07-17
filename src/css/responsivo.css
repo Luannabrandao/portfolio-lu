@@ -22,7 +22,7 @@
 
 @media (max-width: 1020px) {
   .menu {
-    height: auto;
+    height: 0;
   }
   .bio h1 {
     font-size: 2.5rem;
