@@ -3,7 +3,10 @@ header {
 }
 /*Inicio*/
 .header {
-  margin: 80px 0px;
+  margin: 50px 0px;
+}
+.menu {
+  height: 100vh;
 }
 .menu-bio ul {
   display: flex;
