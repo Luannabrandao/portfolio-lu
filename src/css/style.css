@@ -96,14 +96,21 @@ header {
   transform: scale(1);
   transition-delay: 0.25s;
 }
-
-.menu .bio {
+.bio--section {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding: 2rem;
+  height: 75vh;
+}
+
+.bio--section .bio {
+  display: flex;
+  align-items: center;
 }
 .description {
-  max-width: 1000px;
+  max-width: 700px;
   text-align: center;
 }
 .bio h1 {
@@ -127,8 +134,8 @@ header {
   margin: 50px 30px;
 }
 .img-profile img {
-  width: 850px;
-  height: 850px;
+  width: 600px;
+  height: 600px;
 }
 .img-profile img:hover {
   transform: scale(1.05);
@@ -153,12 +160,12 @@ header {
   text-align: center;
 }
 .about img {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   margin-right: 50px;
 }
 .about p {
-  max-width: 900px;
+  max-width: 800px;
   margin-left: 50px;
   font-size: 1.5rem;
 }
