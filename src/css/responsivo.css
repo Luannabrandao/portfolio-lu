@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  .bio--section .bio {
+  .bio-section .bio {
     flex-direction: column;
     width: 100%;
   }
