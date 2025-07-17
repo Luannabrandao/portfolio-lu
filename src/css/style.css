@@ -134,8 +134,8 @@ header {
   margin: 50px 30px;
 }
 .img-profile img {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
 }
 .img-profile img:hover {
   transform: scale(1.05);
