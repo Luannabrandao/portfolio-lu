@@ -15,9 +15,10 @@
     padding: 30px;
   }
   .about p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0 20px;
-    width: 80%;
+    width: 70%;
+    text-align: center;
   }
 }
 
@@ -37,11 +38,6 @@
   }
   .about-me h2 {
     font-size: 2rem;
-  }
-  .about p {
-    font-size: 0.9rem;
-    padding: 0 20px;
-    width: 80%;
   }
 }
 @media (max-width: 700px) {
@@ -65,5 +61,11 @@
   .img-profile img {
     width: 300px;
     height: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  .about-me h2 {
+    padding-top: 60px;
   }
 }
